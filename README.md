@@ -46,6 +46,21 @@ The app enforces that only one primary activity (Tavern, Expeditions, City Guard
 	- Tavern options: “Buy beer with mushrooms” and “Use glasses to skip waits” toggles.
 	- Mushroom budgets: Sliders for daily beer, dungeon skip, and pet skip caps.
 
+## Releases
+
+- Prebuilt downloads are available on the GitHub Releases page:
+	https://github.com/SenseiIssei/SF-Assistant/releases
+
+- Artifacts included per platform:
+	- Windows: SFAssistant_v{version}_x86_64-pc-windows-msvc.zip + .sha256
+		- Contains: SFAssistant.exe, LICENSE.txt, README.md
+	- macOS: SFAssistant_v{version}_{x86_64|aarch64}-apple-darwin.zip + .sha256
+		- Contains: SFAssistant, LICENSE.txt, README.md
+	- Linux: SFAssistant_v{version}_{x86_64|aarch64}-unknown-linux-gnu.tar.gz + .sha256
+		- Contains: SFAssistant, LICENSE.txt, README.md
+
+- Verify downloads using the provided SHA-256 checksum files.
+
 ## Installation
 
 SF Assistant is a Rust application and can be built from source on Windows, macOS, or Linux.
